@@ -15,14 +15,13 @@ const Edit = ({ match }) => {
   
 
   useEffect(() => {
-    const getEditInfoFromStorage = () => {
+    
       infos.forEach((account) => {
         if (account.site === match.params.id) {
           setEdit(account);
         }
       });
-    };
-    getEditInfoFromStorage();
+   
     
   }, [match.params.id,infos]);
 
