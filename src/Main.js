@@ -10,7 +10,7 @@ import {
   AiOutlinePlus,
 } from "react-icons/ai";
 
-function MainPage() {
+function Main() {
   const { password } = useContext(PasswordContext);
   const { random } = useContext(PasswordContext);
   const { editPage } = useContext(PasswordContext);
@@ -93,4 +93,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default Main;
