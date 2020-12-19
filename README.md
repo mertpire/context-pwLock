@@ -12,7 +12,7 @@ npm i react
 npm start
 ```
 
-and save your passwords for your accounts.
+ and save your passwords for your accounts.
 
 
 
